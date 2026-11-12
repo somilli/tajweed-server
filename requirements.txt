@@ -1,0 +1,15 @@
+# Pinned to the versions proven on Nov 12, 2026 (qdat_bench run:
+# 159/159 clips, PER 5.9%). Install torch from the CPU index first —
+# see setup.sh. transformers MUST stay < 5 (the stock loader breaks
+# on 5.x; the prototype pinned >=4.55,<5 and runs 4.57.6).
+torch==2.15.0
+transformers==4.57.6
+quran-muaalem==0.3.0
+quran-transcript==0.6.4
+librosa==1.0.0
+soundfile==0.14.0
+numpy==2.5.4
+huggingface_hub==0.36.2
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
